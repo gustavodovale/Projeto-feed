@@ -40,7 +40,7 @@
   height: 49px;
   font-weight: 700px;
   font-family: Roboto;
-  font-size: 42px;
+  font-size: 30px;
 }
 
 .centro {
@@ -101,6 +101,38 @@
   padding-bottom: 15px;
 }
 
+.contéudo {
+  margin-top: 80px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.contéudo img{
+  width: 500px;
+  height: 300px;
+}
+.texto {
+  margin-left: 19px;
+}
+.texto h1{
+  width: 487px;
+  height: 112px;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.texto p{
+  margin-top: 23px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400px;
+  font-family: Roboto;
 
+
+
+
+
+
+}
 
 

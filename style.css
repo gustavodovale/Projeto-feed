@@ -9,21 +9,71 @@
 
 /* Estilizando o body */
 .tela_de_Cadastro{
-  padding: 2% 15%;
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
+  display: flex;
+  height: 100vh; /* Altura da tela */
+  width: 100%; /* Largura total */
+}
+.lado_ {
+  flex: 1; /* Divide o espaço igualmente */
+  height: 100%;
 }
 
-.lado_esquerdo{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+.lado_esquerdo {
+  background: #FFFFFF;
 
 }
-.lado_direito{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+.lado_direito {
+  background: #0056FB;
 }
+/* Estilizando o a parte do formulario */
+
+.formulario_cadastro {
+  margin-top: 346px;
+  margin-bottom: 298px;
+  margin-left: 138px;
+  margin-right: 138px;
+}
+
+/* .formulario_cadastro h1{
+  width: 234px;
+  height: 49px;
+  top: 346px;
+  left: 138px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 700;
+  margin-right: 348px;
+  margin-left: 138px;
+}
+.formulario_cadastro input{
+  border: 2px solid gray;
+  width: 444px;
+  height: 49px;
+  top: 420px;
+  left: 138px;
+  border-radius: 4px;
+  border-color: black;
+  margin-right: 138px;
+  margin-left: 138px;
+}
+
+.formulario_cadastro button{
+  width: 444px;
+  height: 49px;
+  top: 689px;
+  left: 138px;
+  border-radius: 4px;
+  background-color: #0056FB;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-right: 138px;
+  margin-left: 138px;
+}
+.formulario_cadastro label {
+  margin-right: 138px;
+  margin-left: 138px;
+}
+
 

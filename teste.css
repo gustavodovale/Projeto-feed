@@ -1,0 +1,19 @@
+.container-principal {
+    display: flex;
+    height: 100vh; /* Altura da tela */
+    width: 100%; /* Largura total */
+  }
+  
+  .sub-container {
+    flex: 1; /* Divide o espaço igualmente */
+    height: 100%;
+  }
+  
+  .esquerdo {
+    background-color: lightblue;
+  }
+  
+  .direito {
+    background-color: lightgreen;
+  }
+  
